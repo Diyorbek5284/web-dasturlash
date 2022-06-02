@@ -1,0 +1,23 @@
+.roundet-img{
+    border-radius: 24px;
+}
+
+.circle-img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.thumbnail-img{
+    border: 1px solid tan;
+    border-radius: 5x;
+    padding: 10px;
+}
+
+.opacity-img{
+    opacity: 0.5;
+}
+
+.opacity-img:hover{
+    opacity: 1;
+}

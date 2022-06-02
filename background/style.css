@@ -1,0 +1,13 @@
+.box{
+    background-image: url(../sher_odam.jpeg);
+    color: wheat;
+    height: 1000px;
+    background-repeat: no-repeat;
+    /* background-size: cover;*/
+    background-position: 600px 250px;
+}
+
+.boxx{
+    background-image: url("../sherrasm.jpeg");
+    background-size: cover;
+}

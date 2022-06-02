@@ -1,0 +1,28 @@
+.perend-box{
+    width: 500px;
+    height: 500px;
+    border: 5px solid blue;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transform: perspective(10px) rotate3d(1, 3, -1, 30deg );
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    transform: perspective() translate3d(10px, 200px, 100px);
+    background-color: red;
+}
+
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transform: scale(2, 3, 2);
+    transform-origin: top left;
+
+}

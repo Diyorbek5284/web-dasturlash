@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+.box{
+    background-color: rebeccapurple;
+    display: inline;
+}
+
+.box2{
+    background-color: rebeccapurple;
+    display: inline;
+}
+
+.link{
+    background-color: gold;
+    display: block;
+}
+
+.inline{
+    background-color: rebeccapurple;
+    display: inline-block;
+    width: 900px;
+}
+
+.none{
+    background-color: darkblue;
+    display: none;
+}

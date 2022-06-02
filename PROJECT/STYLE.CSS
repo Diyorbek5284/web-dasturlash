@@ -1,0 +1,10 @@
+.heder ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    float: right;
+}
+
+.heder h1{
+    display: inline-block;
+}

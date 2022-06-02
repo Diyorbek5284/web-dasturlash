@@ -1,0 +1,19 @@
+
+
+.box{
+    background-color: magenta;
+    height: 100%;
+}
+
+.box2{
+    background-color: rgb(21, 138, 240);
+    max-height: 50px;
+    overflow: auto;
+    min-width: 200px;
+}
+
+.box3{
+    min-height: 10pxpx;
+    background-color: aqua;
+    max-width: 500px;
+}

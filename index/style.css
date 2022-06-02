@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+     text-align: center;
+     margin-bottom:20px ;
+}
+
+.nav{
+    border: 1px solid red;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+.nav p{
+    padding: 15px;
+}
+
+.red{
+     background: yellow;
+   width: 70px;
+   border-radius: 40%;
+   margin: 10px 10px;
+   padding: 2px 2px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.footer{   
+     text-align: center;
+}
+
+span{
+    margin-right: 15px;
+    background-color: rgb(21, 102, 174);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+  a {
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+ }
+
+.P{
+    position: absolute;
+    left: 10px;
+    bottom: ;
+}
+
+.nav{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+

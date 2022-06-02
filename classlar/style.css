@@ -1,0 +1,28 @@
+.text-red{
+    color: red;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-gold{
+    color: gold;
+}
+
+h1{
+    color: red;
+}
+
+h1.active{
+    background-color: blue;
+    color: green;
+}
+
+a{
+    color: aqua;
+}
+
+a.active{
+    background-color: brown;
+}

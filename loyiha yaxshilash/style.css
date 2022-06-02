@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+}
+
+.contener{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-hedr-brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-hedr-brand img{
+    width: 64px;
+}
+
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation_item {
+    display: inline-block;
+}
+
+.main-navigation ul li{
+    list-style-type: none;
+    padding: 10px; 
+}
+
+.main-navigation_item a{
+    color: lawngreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.main-navigation_item a:hover{
+    color: #123456;
+}
+
+.main-navigation_item.active a{
+    color: aquamarine;
+}
+
+.main-section{
+    padding: 100px 30px;
+}
+
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+
+.main-section_img{
+    text-align: right ;
+}
+
+.main-section_welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    color: teal;
+}
+
+.to-uppercase{
+    text-transform: uppercase;
+}
+
+.main-section_introduction{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: violet;
+}
+
+.main-section_position{
+    color: tomato;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-section_action{
+    margin-top: 30px;
+    border: none;
+    background-color: blue;
+    color: cadetblue;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 80px;
+    cursor: pointer;
+    border-radius: 5px;
+}

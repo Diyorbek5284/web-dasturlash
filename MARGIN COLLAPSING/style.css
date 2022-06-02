@@ -1,0 +1,12 @@
+.box1{
+    margin: 30px 23px 24px 231px;
+    border-width: 5px;
+    border-style: double;
+    border-color: aqua;
+}
+.box2{
+    margin: 40px 100px;
+    border-right: 5px solid red;
+    border-top: 3px dashed black;
+}
+

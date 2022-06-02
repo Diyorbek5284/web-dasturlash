@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+    background-color: blueviolet;
+}
+/* 
+.contener{
+    margin: 100px 450px;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: antiquewhite;
+    flex-direction: column;
+    border-radius: 10PX;
+    
+    
+    
+}
+
+.item{
+    
+    padding: 8px  10px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.item:hover{
+    background-color: aquamarine;
+}
+
+.tab ul li{
+    text-align: center;
+    width: 70px;
+    display: inline-block;
+    height: 15px;
+    /* flex-direction: row;
+    align-items: flex-start;
+     */
+
+/* }
+
+.for{
+    
+    background-color: yellowgreen;
+    padding: 5px 20px;
+    margin: 5px 5px;
+}
+
+.list{
+    border: 1px solid red;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+}
+
+.red{
+    padding: 20px 10px;
+    background-color: darkblue;
+} */ 
+
+
+.rasm img{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.oy h6{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}

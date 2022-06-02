@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+.box{
+    height: 600px;
+    width: 600px;
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 0.5em;
+    padding: 12.5em;
+    margin: 3em;
+} */
+
+/* .paren{
+    font-size: 30px;
+}
+
+.box{
+    border: 1px solid red;
+    height: 10em ;
+    width: 10em;
+    padding: 2em;
+    border-radius: 1em;
+
+} */
+
+/* .ful{
+    font-size: 30px;
+}
+
+.peren{
+    font-size: 2em;
+}
+
+.box{
+    height: 600px;
+    width: 600px;
+    border: 1px solid red;
+    border-radius: 1em;
+    padding: 5em;
+} */
+
+.contener{
+    font-size: 3px;
+    padding: 0.5em;
+    border: 1px solid darkblue;
+    width: 200px;
+    height: 300px;
+}
+
+.contener h2{
+    font-size: 1.5em;
+    margin-bottom: 4px;
+}
+
+.contener h6{
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+}
+
+.contener p{
+    font-size: 0.8em;
+}

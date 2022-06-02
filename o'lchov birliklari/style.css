@@ -1,0 +1,11 @@
+h1{
+    font-size: 100px;
+}
+
+.fixed{
+    position: fixed;
+    width: 50%;
+    height: 200px;
+    padding: 5%;
+    background-color: rebeccapurple;
+}

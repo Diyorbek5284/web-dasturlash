@@ -1,0 +1,26 @@
+.contener{
+    padding: 30px;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(0, 212, 81);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:blue;
+    color: yellowgreen;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
+}

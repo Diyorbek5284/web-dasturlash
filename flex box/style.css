@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif;
+}
+
+/* .contener{
+
+    display: flex;
+    padding: 30px;
+    background-color: darkblue;
+    border-radius: 10px;
+}
+
+.items{
+    padding: 60px 60px;
+    background-color: gainsboro;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+} */
+
+.flex-contener{
+    display: flex;
+    width: 390px;
+    height: 800px;
+    padding: 40px;
+    background-color: wheat;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+
+    /* flex-flow: column nowrap; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    flex-wrap: wrap;
+    justify-content: center;
+   /* align-items: stretch;  */
+   /* align-items: center; */
+   /* align-items: flex-start; */
+   /* align-items: flex-end; */
+
+   /* align-content: stretch; */
+   /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    align-content: center;
+
+    /* align-items: flex-start; */
+    
+
+}
+
+
+/* .flex-grow1{
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+.flex-grow2{
+    flex-grow: 3;
+    flex-shrink: 5;
+}  */
+/* 
+.flex-basis3{
+    flex-basis: 120px;
+} */
+
+.flex-basis3{
+    /* flex: 0 0 200px; */
+    /* align-self: center; */
+    
+}
+
+
+
+.flex-item{
+    padding: 60px 15px;
+    background-color: white;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+}
+
+.for1{
+    width: 400px;
+    height: 50px;
+}
+
+.flex-item:hover{
+    background-color: aqua;
+    color: azure;
+}

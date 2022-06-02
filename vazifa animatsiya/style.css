@@ -1,0 +1,265 @@
+/* .box1,
+.box2,
+.box3 {
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    animation: box_model 0.5s infinite alternate;
+    box-shadow: 0px 0px 5px black;
+}
+
+.box1 {
+    animation-delay: -1s;
+}
+
+.box2 {
+    animation-delay: -0.5s;
+}
+
+.box3 {
+    animation-delay: -0.25s;
+}
+
+@keyframes box_model {
+    100% {
+        transform: scaleY(0.5);
+        
+    
+    }
+}
+
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: box 1s infinite alternate;
+    top: 110px;
+    box-shadow: 0px 0px 5px black;
+    left: 10%;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation: box 1s infinite 1s alternate;
+    top: 0px;
+    position: relative;
+    box-shadow: 0px 0px 5px black;
+    left: 10%;
+
+}
+
+@keyframes box{
+    0%{
+        transform:scale(5, 5);
+    }
+    0%{
+        transform: scale(5, 5);
+    }
+}
+
+h1, h2{
+    text-align: center;
+} */
+/* 
+.quti1{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 20%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti1, .quti2, .quti3,{
+    display: inline-block;
+    
+}
+
+.quti3{
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti4{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 40%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti5{
+    border: 1px solid aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti4, .quti5{
+    display: inline-block;
+    
+}
+
+.quti6{
+    border: 1px solid aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 10%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti7{
+    border: 1px solid aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 20%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti8{
+    border: 1px solid aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 30%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti9{
+    border: 1px solid orange;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 40%;
+    top: 10%;
+    border-radius: 50%;
+}
+
+.quti6, .quti7, .quti8, .quti9 {
+    display: inline-block;
+    
+}
+
+.quti1{
+    animation: quti 1s infinite alternate;
+    animation-delay: -4s;
+}
+
+
+.quti2{
+    animation: quti 1s infinite alternate;
+    animation-delay: -2s;
+}
+
+
+.quti3{
+    animation: quti 1s infinite alternate;
+    animation-delay:- 0.5;
+}
+
+
+.quti4{
+    animation: quti 1s infinite alternate;
+    animation-delay: -0.25;
+}
+
+
+.quti5{
+    animation: quti 1s infinite alternate;
+    animation-delay:- 0.125;
+}
+
+@keyframes quti{
+    0%{
+        transform: scale(2, 2);
+    }
+} */
+
+
+
+/* body{
+    background-color: black;
+}
+
+.load{
+    font-size: 50px;
+    color: whitesmoke;
+    position: relative;
+    left: 35%;
+    top: 120px;
+}
+
+.box{
+    width: 400px;
+    position: relative;
+    border: 5px solid red;
+    height: 80px;
+    /* align-items: center; */
+    /* justify-content: center; */
+  /*  top: 140px;
+    left: 35%;
+    border-radius: 10px;
+    
+    animation: load 1s infinite alternate;
+}
+
+@keyframes load{
+    0%{
+        width: 0%;
+        /* background-color: aqua; */
+       /* border: 5px solid red;
+        width: 400px;
+        height: 80px;
+    }
+    100%{
+        width: 100%;
+        background-color: aqua;
+    }
+} */
+
+
+
+.box1 {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+

@@ -1,0 +1,32 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: rotate(-40deg);
+    transform-origin: center;
+}
+
+.box2{
+    
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: translatey( 100px);
+    
+}
+
+.box3{
+    
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: scale(0.5, 0.5);
+}
+
+.box4{
+    
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: skew(200deg, 200deg);
+}

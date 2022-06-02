@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Open sans';
+    src: url('../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Open sans Condensed';
+    src: url('../assets/fonts/OpenSans_Condensed-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    padding: 0px 170px;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* .container {
+    width: 1197px;
+} */
+
+.white_text{
+    color: #fff;
+}
+
+.black_text{
+    color: #000;
+}
+
+.btn_red, .btn_transparent:hover{
+    background-color: #DE2E54;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #DE2E54; 
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.btn_red:hover{
+    background-color: #fff;
+    color: #DE2E54;
+}
+
+.btn_transparent{
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 36px;
+    line-height: 120%;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text{
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 1rem;
+}
+
+/* navbar va footer boshlandi */
+
+nav{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 185px;
+    justify-content: space-between;
+}
+
+.logo span{
+    font-weight: 600;
+    color: #222;
+    line-height: 33px;
+    font-size: 24px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu ul li{
+    margin: 0 16px;
+    list-style-type: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    font-size: 0.88;
+    line-height: 150%;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 0px 1.5rem ;
+}
+
+.menu2 span{
+    color: white;
+}
+
+.menu2 ul li a{
+    color: white;
+}
+
+
+/* navbar va footer tugadi */
+
+/* header boshladi */
+
+
+header{
+    background-color: aqua;
+    width: 1197px;
+}
+
+.asos{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+
+
+.rasm p{
+    padding: 20px 0px;
+    color: white;
+}
+
+.rasm h2{
+    color: white;
+    font-weight: 600;
+    /* padding-bottom: 20px; */
+
+}
+
+.rasm2 {
+    height: 400px;
+}
+
+.rasm2 img{
+    /* width: 290px; */
+    max-height: 100%;
+    /* padding: 0 20px; */
+}
+
+/* header tugadi */
+
+/* menu boshlandi */
+
+menu{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+}
+
+.xizmat{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 130px;
+}
+
+.xizmat img{
+    width: 150px;
+}
+
+.contener{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.xizmat p, h3{
+    padding-left: 40px;
+}
+
+.qabul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: space-between; */
+    background-color: aqua;
+    font-weight: 900;
+    width: 1180px;
+    height: 200px;
+}
+
+.buttun {
+    /* background-color: wheat; */
+    padding: 30px 30px;
+}
+
+
+
+
+
+
+
+
+
+/* menu tugadi */
+
+
+
+
+

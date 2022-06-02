@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.H1{
+    text-align: center;
+    margin: 15px;
+    padding: 15px 0px 5px 15px;
+
+}
+
+#box, #box2, #box3{
+    float: left;
+    border: 1px solid blue;
+    width: 300px;
+    height: 300px;
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+
+.P{
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.easy{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.span{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.pas{
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+.link{
+    position: relative;
+    left: 170px;
+    margin-top: 15px;
+
+}
+
+#box2{
+    width: 300px;
+    float: right;
+}
+
+#box3{
+    
+}
+

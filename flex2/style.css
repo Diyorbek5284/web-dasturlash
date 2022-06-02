@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sayt{
+    width: 960px;
+    height: 600px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-direction: column;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content:space-between; */
+    justify-content: space-around;
+    
+}
+
+.test{
+    /* margin: 5px 5px; */
+    width: 300px;
+    /* height: 200px; */
+    border: 1px solid green;
+    background-color: #777; 
+}
+
+/* .test:hover{
+    transform: scale(0.2, 0.2);
+    background-color: red;
+} */
+
+.farq{
+    background-color: #999;
+    /* width: 60px; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#star{
+    width: 960px;
+    border: 1px solid red;
+    /* margin: 0 auto; */
+    /* height: 100px; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* align-items: stretch; */
+    justify-content: center;
+    /* align-items: baseline; */
+    /* align-items: center; */
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+}
+
+@media screen and (max-width: 600px){
+    #star{
+        width: 95%;
+        height: auto;
+    }
+}
+
+.one, .two, .three{
+    /* margin: 0px auto; */
+    width: 300px;
+    height: 80px;
+    border: 1px solid green;
+    
+}
+
+.one{
+    width: 180px;
+    align-self: center;
+    background: #eee;
+    /* align-self:flex-end ; */
+}
+
+.two{
+    width: 500px;
+    align-self: center ;
+    background: #2e2;
+    overflow: scroll;
+
+}
+
+.three{
+    background: orange;
+}
+
+#blok{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.ustun{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.malumot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.malumot img{
+    width: 25%;
+}
+
+.rasm{
+    width: 960px;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 0px 50px;
+
+
+}
+
+.menu{
+    width:260px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content{
+    border: 5px dashed firebrick;
+    border-radius: 5px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content img{
+    width: 300px;
+    
+}
+
+.baland{
+    width: 960px;
+    height: 600px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid navy;
+}
+
+.heder{
+    height: 80px;
+    background: #eee;
+
+}
+
+.heder h3{
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+
+}
+
+.me{
+    height: 50px;
+    background: #aaa;
+
+}
+
+.me ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.me ul li{
+    width: 20%;
+    border: 1px solid darkblue;
+}
+
+.me ul li a{
+    display: block;
+    /* width: 33%; */
+    line-height: 50px ;
+    background: firebrick;
+    text-align: center;
+}
+
+.asos{
+    /* height: 250px; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+
+}
+
+.left, .right{
+    width: 50%;
+    height: 100%;
+
+}
+
+.left{
+    background: gold;
+    border: 1px solid darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+    align-items: center;
+    /* align-content: flex-end; */
+    /* align-content: space-between; */
+    align-content: ;
+    
+}
+
+.left h2{
+    border: 1px solid red;
+    padding: 40px;
+    /* height: 100%; */
+}
+
+.right{
+    background: navy;
+}
+
+.blok{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.blok img{
+    /* width: 30%; */
+    /* height: 100px; */
+
+}
+
+.rasmlar{
+    width: 50%;
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.rasmlar img{
+    height: 200px;
+}
+
